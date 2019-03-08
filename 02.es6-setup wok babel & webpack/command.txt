@@ -1,0 +1,30 @@
+                                           Terminal/npm:
+			 -------------------
+Babel:
+---------
+cd desktop/es6_tutorial
+npm init -y      (create json file)
+npm install --save-dev babel-core babel-preset-env 
+			(akhane babel-core = 6.x)
+
+create file = .babelrc  (some code here)
+  
+
+webpack:
+------------
+npm install --save-dev webpack babel-loader@7 
+		(babel-core 6,7 hole, babel-loader hobe 7,8)
+
+npm install --save-dev webpack-cli -D
+
+
+create file = webpack.config.js  (some code here)
+
+create folder = src = file(index.js) = some code here(index.js)
+
+package.json = some code correction (scripts)   (some code here)
+
+npm run dev 
+
+create file = index.html = (some code here)
+

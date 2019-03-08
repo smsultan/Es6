@@ -1,0 +1,23 @@
+Terminal:
+------------
+npm install --save-dev webpack-dev-server  (dev-server ta install korte hobe)
+
+Package.json file a:
+-----------------------
+"scripts": {
+	-----,
+	"start": "webpack-dev-server -d"
+	}
+ 
+webpack.config.js file a:
+----------------------------
+output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundle.js',
+        publicPath: '/dist'          (atai add korci)
+    },
+
+Terminal:
+------------
+npm start
+terminal er link ta copy kore browser a paste korte hobe
